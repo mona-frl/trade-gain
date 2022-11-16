@@ -1,0 +1,179 @@
+h1 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.lead {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
+}
+
+.text-muted {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+#hero {
+    padding-top: 3.43rem;
+}
+
+.title {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 40px;
+}
+
+.title:hover {
+    color: black;
+    text-shadow: 0 0 5px #dd7342;
+}
+
+.img-title {
+    padding-bottom: 10px;
+}
+
+.img-categories {
+    width: 140px;
+    height: 140px;
+}
+
+
+/* Background Stuff */
+
+.bg-orange {
+    background-color: #fe8145;
+}
+
+.bg-light-orange {
+    background-color: #ffeae1;
+}
+
+.bg-orange2 {
+    background-color: #f1ad8d;
+}
+
+/* NavbaR Stuff */
+
+.nav-link:hover {
+    color: rgb(78, 78, 78);
+    text-shadow: 0 0 1px #dd7342;
+}
+
+.nav-menu {
+    margin-right: 2px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    position: relative;
+    flex-direction: column;
+}
+
+.nav-list-item {
+    position: relative;
+    list-style: none;
+}
+
+.nav-list-item-a {
+    position: relative;
+    text-decoration: none;
+
+}
+
+.nav-list-item-a::before {
+    content: attr(data-text);
+    position: absolute;
+    color: var(--clr);
+    width: 0;
+    overflow: hidden;
+    transition: 1s;
+    -webkit-text-stroke: 1px var(--clr);
+}
+
+
+.nav-list-item-a:hover::before {
+    width: 90%;
+    filter: drop-shadow(0 0 20px var(--clr));
+    border-right: 5px solid var(--clr);
+}
+
+.dropdown-item:hover:hover::before {
+    width: 80%;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+    color: rgb(107, 105, 105);
+    text-shadow: 0 0.5px 0 rgb(199, 193, 193)
+}
+
+/* categories */
+.profile {
+    text-decoration: none;
+    color: black;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.profile:hover {
+    color: black;
+}
+
+.card {
+    margin: 10px;
+    box-shadow: 2px #dd7342;
+}
+
+
+/* Buttons */
+
+.btn-outline-secondary {
+    border-color: #e66429;
+    color: #e66429
+}
+
+.btn-outline-secondary:hover {
+    background-color: #e66429;
+    color: black;
+    border: #dd7342;
+}
+
+
+
+
+
+
+/* Footer stuff */
+
+footer {
+    margin: 0;
+}
+
+footer img {
+    margin: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #6c757d;
+
+}
+
+footer a:hover {
+    color: #e2e2e2
+}
